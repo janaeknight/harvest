@@ -1,0 +1,40 @@
+body {
+    width: 96vw; height: auto;
+    margin: 0 auto;
+    background-color: chocolate;
+}
+#subnav { display: none; }
+.avi {
+    height: 45px; width: 120px;
+    background-color: plum; margin: 0 auto;
+}
+.avi img { 
+    height: 40px;
+    box-shadow: 5px 10px;
+  }
+.post {
+    background-color: snow; margin: 0 auto;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    body { display: flex; flex-direction: column; }
+    nav { display: none; }
+    #subnav { 
+        display: flex; flex-direction: row;
+        padding: 1% .5%; 
+    }
+    #subnav img { height: 75px; border-radius: 100%; }
+    #right {
+        width: 95vw; margin: 0 auto;
+    }
+    .post {
+        width: 94%; height: 220px;
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width: 501px) {
+    body { display: flex; flex-direction: row; }
+    #left { display: flex; width: 30%; }
+    #right {  display: flex; flex-wrap: wrap; width: 70%; }
+}
