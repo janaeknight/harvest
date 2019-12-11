@@ -7,13 +7,19 @@ body {
 /*========================== SUBNAV CSS ==========================*/
 
 #subnav { display: none; }
+#subnav a {
+    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat965.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat965.gif), auto !important;
+}
 .burger { display: none; }
 
 /*========================== NAV CSS ==========================*/
 nav a {
-    width: 50%;
-    margin: 1% auto; padding: 1% .5%;
+    width: 58%;
+    margin: 5% auto; padding: 1% .5%;
     background-color: greenyellow;
+    box-shadow: 5px 5px #d2c31e;
+    border-radius: 5px;
+    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat953.cur), auto !important;
 }
 .avi {
     width: 80%; height: auto; padding-bottom: 19%;
@@ -27,7 +33,7 @@ nav a {
 /*========================== ================ ==========================*/
 .post {
     background-color: snow; margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 5px; overflow: hidden;
 }
 .post:hover {
     cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat966.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat966.gif), auto !important;
@@ -40,7 +46,10 @@ nav a {
     nav { display: none; }
     #subnav { 
         display: flex; flex-direction: row;
-        padding: 1% .5%; 
+        padding: 1% .5%; font-size: 250%;
+    }
+    #subnav a {
+        padding: 8% 1%;
     }
     #subnav img { height: 75px; border-radius: 100%; }
     #right {
@@ -53,6 +62,8 @@ nav a {
 }
 
 /*
+
+    #D21E2D somebody lied to her
     🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
     🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡
 */
@@ -80,7 +91,7 @@ nav a {
     #right {  display: flex; flex-wrap: wrap; width: 80%; }
     nav { padding-top: 18%; }
     .post {
-        width: 23%; height: 220px;
+        width: 23%; height: auto;
         margin-top: 15px;
     }
 }
