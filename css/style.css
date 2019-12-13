@@ -1,7 +1,7 @@
 body {
     display: flex; flex-direction: row;
     width: 96vw; height: auto;
-    margin: 0 auto;
+    margin: 0 auto; padding-bottom: 20px;
     background-color: chocolate;
 }
 /*========================== SUBNAV CSS ==========================*/
