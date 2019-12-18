@@ -6,20 +6,18 @@ body {
 }
 /*========================== SUBNAV CSS ==========================*/
 
-#subnav { display: none; }
+#subnav { height: auto; display: none; }
 #subnav a {
     cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat965.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat965.gif), auto !important;
-    margin: auto 0 !important;
 }
-#burger { position: relative;
-    width: 99vw;
-    background-color: coral;
+#burger {  
+    display: none; sposition: relative;
+    width: 99vw; /* subnav a align */
+    background-color: #d67834;
     font-size: 120%; text-align: right;
 }
-#burger ul { list-style: none; margin-right: 5% !important; }
-#burger li {
-    background-color: crimson; padding: .3% 0;
-}
+#burger ul { list-style: none; margin-right: 4% !important; }
+#burger li { padding: .5% 0; }
 
 /*========================== NAV CSS ==========================*/
 nav a {
