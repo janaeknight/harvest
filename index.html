@@ -7,7 +7,6 @@
     <title>Harvest</title>
     <link href="css/flex.css" type="text/css" rel="stylesheet" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <script src="java/javascript.js"></script>
     <!--
         It has a harvest theme and uses warm, muted colors in a style reminiscent of ancient Egyptian aesthetics.
     -->
@@ -34,17 +33,16 @@
             <div class="db7 txt-right">
                 <a>⌬</a>
                 <a></a>
-                <a class="ham">☰
-                    <div class="burger">
-                        <ul>
-                            <li><a>Ask</a></li>
-                            <li><a>Link 1</a></li>
-                            <li><a>Link 2</a></li>
-                            <li><a>Contact</a></li>
-                        </ul>
-                    </div>
-                </a>
+                <a class="ham" onClick="burger()">☰</a>
             </div>
+        </div>
+        <div id="burger">
+            <ul>
+                <li><a>Ask</a></li>
+                <li><a>Link 1</a></li>
+                <li><a>Link 2</a></li>
+                <li><a>Contact</a></li>
+            </ul>
         </div>
     </div>
     <div id="right">
@@ -57,5 +55,14 @@
         <div class="post"></div>
         <div class="post"></div>
     </div>
+
+    <script>
+    let bu = document.getElementById("burger");
+        function burger() {
+            if (bu.style.display = "none") {
+                bu.style.display = "block"
+            }
+        }
+    </script>
 </body>
 </html>
