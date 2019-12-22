@@ -11,7 +11,7 @@ body {
     cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat965.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat965.gif), auto !important;
 }
 #burger {  
-    display: none; sposition: relative;
+    display: none; position: relative;
     width: 99vw; /* subnav a align */
     background-color: #d67834;
     font-size: 120%; text-align: right;
