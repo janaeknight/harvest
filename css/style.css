@@ -3,12 +3,13 @@ body {
     width: 96vw; height: auto;
     margin: 0 auto; padding-bottom: 20px;
     background-color: chocolate;
+    cursor: url(../cur/nat967.cur), auto !important
 }
 /*========================== SUBNAV CSS ==========================*/
 
 #subnav { height: auto; display: none; }
 #subnav a {
-    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat965.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat965.gif), auto !important;
+    cursor: url(../cur/nat965.ani), url(../cur/nat965.gif), auto !important;
 }
 #burger {  
     display: none; position: relative;
@@ -26,7 +27,7 @@ nav a {
     background-color: greenyellow;
     box-shadow: 5px 5px #d2c31e;
     border-radius: 5px;
-    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat953.cur), auto !important;
+    cursor: url(../cur/nat953.cur), auto !important;
 }
 .avi {
     width: 80%; height: auto; padding-bottom: 19%;
@@ -39,11 +40,11 @@ nav a {
 
 /*========================== ================ ==========================*/
 .post {
-    background-color: snow; margin: 0 auto;
+    background-color: whitesmoke; margin: 0 auto;
     border-radius: 5px; overflow: hidden;
 }
 .post:hover {
-    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat966.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat966.gif), auto !important;
+    cursor: url(../cur/nat966.ani), url(../cur/nat966.gif), auto !important;
 }
 
 /*========================== ================ ==========================*/
